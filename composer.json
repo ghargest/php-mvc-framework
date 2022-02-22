@@ -1,0 +1,18 @@
+{
+    "name": "greghargest/php-mvc-framework",
+    "authors": [
+        {
+            "name": "Greg Hargest",
+            "email": "ghargest@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "ghargest/php-mvc-fw-core": "dev-main"
+    }
+}
